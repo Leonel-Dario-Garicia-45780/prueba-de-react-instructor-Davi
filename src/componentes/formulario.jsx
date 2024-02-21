@@ -19,6 +19,7 @@ const Formulario = ({ onAgregar }) => {
   return (
     <form onSubmit={handleSubmit}>
       <input
+      className='parametros'
         type="text"
         placeholder="Nombre"
         value={nombre}
@@ -26,6 +27,7 @@ const Formulario = ({ onAgregar }) => {
       />
         <br />
       <input
+      className='parametros'
         placeholder="Comentario"
         value={comentario}
         onChange={(e) => setComentario(e.target.value)}
