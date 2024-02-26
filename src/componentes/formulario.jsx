@@ -33,7 +33,7 @@ const Formulario = ({ onAgregar }) => {
         onChange={(e) => setComentario(e.target.value)}
       />
       <br />
-      <button type="submit">Agregar</button>
+      <button className='botonFormulario' type="submit">Agregar</button>
     </form>
   );
 };

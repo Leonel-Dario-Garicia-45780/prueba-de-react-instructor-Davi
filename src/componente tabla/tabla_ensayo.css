@@ -1,0 +1,28 @@
+/* th{
+    background-color: rgb(233, 153, 62);
+    padding: 5px;
+    border-style: double;
+    border-radius: 20px;
+    border-color: rgb(4, 0, 255);
+    border-top: 2px;
+    margin: auto;
+    transition: 1s;
+}
+th:hover{
+    scale: 1.2; 
+    border-style: solid;
+    border-color: rgb(0, 255, 242);
+}
+
+table{
+    border: dotted 6px;
+    border-color: rgb(224, 213, 226);
+    width: 10%;
+    background-color: rgba(68, 0, 255, 0.658);
+    transition: 2s;
+    height: 80px;
+}
+table:hover{
+    width: 50%;
+    height: 200px;
+} */

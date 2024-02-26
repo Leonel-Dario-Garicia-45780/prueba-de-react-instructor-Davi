@@ -75,10 +75,10 @@ const Tabla = () => {
         <tbody>
           {datos.map((dato) => (
             <tr key={dato.id}>
-              <td>{dato.id}</td>
-              <td>{dato.nombre}</td>
-              <td>{dato.comentario}</td>
-              <td>
+              <td className='datosTabla'>{dato.id}</td>
+              <td className='datosTabla'>{dato.nombre}</td>
+              <td className='datosTabla'>{dato.comentario}</td>
+              <td className='datosTabla'>
                 <button onClick={() => editarDato(dato.id, { nombre: 'Nuevo Nombre', comentario: 'Nuevo Comentario' })}>Editar</button>
                 <button onClick={() => eliminarDato(dato.id)}>Eliminar</button>
               </td>
