@@ -2,7 +2,7 @@
 
 // Componente Padre (Tabla)
 import React, { useState, useEffect } from 'react';
-import Formulario from './formulario';
+import Formulario from './Formulario';
 
 const Tabla = () => {
   const [datos, setDatos] = useState([]);

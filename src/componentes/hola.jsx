@@ -1,8 +1,11 @@
-const Hola=()=>{
-    return(
-        <div>
-            <h1>hola</h1>
-        </div>
+const Hola = ({nombre}) => {
+    return (
+      <div>
+  
+          <h1> Hola {nombre}</h1>
+  
+      </div>
     )
-}
-export default Hola
+  }
+  
+  export default Hola
