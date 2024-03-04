@@ -1,5 +1,6 @@
 import { useState } from 'react'
 
+// importaciones de la carpeta componentes
 import Tabla from './componentes/tabla'
 import Hola from './componentes/Hola'
 import Holaprops from './componentes/Holaprops'
@@ -10,6 +11,10 @@ import InputCom from './componentes/Inputcom'
 import InputInstCom from './componentes/input_instructor'
 import Comph1 from './componentes/com_usestate'
 import Botonclick from './componentes/botomclik'
+
+//importaciones de la carpeta clase
+import FORmularioclase from './en clase/formulario'
+
 
 //import Modal from './componentes/modal'
 function App() {
@@ -25,8 +30,10 @@ function App() {
  */
   return (
   <div>
+
+
     {/* Personas.map( Personas=><PersonasCom nombre={Personas.nombre} apellido={Personas.apellido}/>) */}
-    <Hola nombre="Leo" />
+{/*     <Hola nombre="Leo" />
     <Holaprops nombre="martos"/>
      
      <BotonCom/>
@@ -34,17 +41,18 @@ function App() {
     <InputCom/>
 
      <Botonclick/>
-    
+     */}
     
 {/*     <Tabla/> */}
 
 
-    {/* <button onClick={abirModal}> abrir Modal</button>
-    {showmodal&&( 
-                <Modal onClose={cerrarModal}>
-                   <h2>holaaa</h2>
-                </Modal>)  
-    } */}
+
+ {/* enn clase  */}
+
+<FORmularioclase/>
+
+
+ 
   </div>
   )
 }
