@@ -1,0 +1,44 @@
+
+
+.filtro_input {
+    width: 100%;
+    padding: 10px;
+    border: 5px solid #b3d9ff; /* Color base */
+    border-radius: 50px; /* Bordes circulares */
+    box-sizing: border-box;
+    font-size: 16px;
+    transition: border-color 0.3s ease;
+  }
+  
+  .filtro_input:focus {
+    outline: none;
+    animation: cambio-color 2s infinite; /* Animación de cambio de color */
+  }
+  
+  @keyframes cambio-color {
+    0% {
+      border-color: #b3d9ff; /* Color base */
+    }
+    25% {
+      border-color: #ffcc80; /* Amarillo */
+    }
+    50% {
+      border-color: #80deea; /* Azul claro */
+    }
+    75% {
+      border-color: #ff8a80; /* Rojo */
+    }
+    100% {
+      border-color: #b3d9ff; /* Color base */
+    }
+  }
+  
+  .filtro_input::placeholder {
+    color: #99a3b5; /* Color del marcador de posición */
+  }
+  
+  .filtro_input:hover::placeholder,
+  .filtro_input:focus::placeholder {
+    color: transparent;
+  }
+  
